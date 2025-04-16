@@ -62,7 +62,7 @@ Helped app support shift from reactive to proactive incident management
 ## Discuss the challenges that you faced while using Python for DevOps and how did you overcome it.
 
 - Here you can mention about a challenge that you faced while implementating a Python project for DevOps that we learnt.
-
+- https://chatgpt.com/c/67ffe9a2-1ea8-800b-a79a-21f69edecc98
 ## How can you secure your Python code and scripts?
 
 - Handle any sensetive information using Input variables, command line arguments or env vars.

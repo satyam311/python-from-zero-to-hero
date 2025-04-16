@@ -7,6 +7,58 @@
   - JIRA integration
   - File Operations
 
+✅ Proactive Incident Detection & Auto-Ticketing System Using Python and Datadog
+🧩 The Problem:
+Our team was frequently flooded with support cases from clients due to microservices getting stuck during operations like "event creation" or "event copy from parent". These incidents typically went unnoticed until the client reported them, which delayed resolution and impacted client trust.
+
+🚀 The Initiative:
+To reduce client-reported incidents and improve response time, I led an initiative to automate the detection and triaging of these issues by integrating:
+
+Datadog log monitoring
+
+Python scripting
+
+Jira ticketing automation
+
+🛠️ What I Built:
+Using Python, I developed a script that:
+
+Pulled logs from Datadog Logs API for specific services (event-creator, event-cloner, etc.)
+
+Filtered error patterns indicating stuck or failed event processes.
+
+Checked against a threshold (e.g., 10+ errors in 5 minutes).
+
+If threshold breached:
+
+Created a Jira ticket with error context
+
+Auto-assigned to relevant engineer or team
+
+Included log snippets, timestamps, and impacted service info
+
+🧰 Tools & Technologies Used:
+Python 3
+
+datadog-api-client
+
+jira (Python library for Jira API)
+
+cron / Jenkins to schedule the script
+
+Slack API (for optional team notifications)
+
+🔥 Impact:
+Reduced client-reported cases by ~50% for recurring event issues
+
+Improved MTTA (Mean Time to Acknowledge) by automating ticket creation
+
+Gave engineers better context with pre-attached logs in Jira
+
+Helped app support shift from reactive to proactive incident management 
+
+
+
 ## Discuss the challenges that you faced while using Python for DevOps and how did you overcome it.
 
 - Here you can mention about a challenge that you faced while implementating a Python project for DevOps that we learnt.
